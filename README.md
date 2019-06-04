@@ -1,4 +1,4 @@
-# VirtualKeyboard (<a href='https://qtcentre.org/threads/49181-virtual-keyboard-in-QT-Application'>qtcentre.org</a>)
+# VirtualInput (<a href='https://qtcentre.org/threads/49181-virtual-keyboard-in-QT-Application'>qtcentre.org</a>)
 virtual keyboard for QT Applications
 
 
