@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Keyboard</class>
+ <widget class="QWidget" name="Keyboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>879</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Keyboard</string>
+  </property>
+  <widget class="QFrame" name="keyholder">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>861</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="btn_backquote">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">`</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">`</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">~</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">1</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">2</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">2</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">@</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">3</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">3</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">#</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">4</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">4</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">$</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">5</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">5</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_6">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">6</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">6</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">^</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_7">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">7</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">7</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">&amp;&amp;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_8">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">8</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">8</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">*</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_9">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">9</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">9</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">(</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_0">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">0</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">0</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_dash">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">-</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">-</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">_</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_equal">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>60</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">=</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">=</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_q">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">q</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">q</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">Q</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_w">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">w</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">w</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_e">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">e</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">e</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_r">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">r</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">r</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">R</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_t">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">t</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">t</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">T</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_y">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">y</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">y</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">Y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_u">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">u</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">u</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">U</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_i">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">i</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">i</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">I</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_o">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">o</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">o</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">O</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_backslash">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>120</y>
+      <width>71</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">\</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">\</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">|</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_p">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">p</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">p</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">P</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_endbracket">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">]</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">]</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_startbracket">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>120</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">[</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">[</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">{</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_l">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">l</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">l</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">L</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_f">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">f</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">f</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_k">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">k</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">k</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">K</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_d">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">d</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">d</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_g">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">g</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">g</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">G</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_a">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">a</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">a</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_s">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">s</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">s</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_h">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">h</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">h</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">H</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_j">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">j</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">j</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">J</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_semicolon">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">;</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">;</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_apostrophe">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>180</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">'</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">'</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">&quot;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_period">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">.</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">.</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_comma">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">,</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">,</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_b">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">b</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">b</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_slash">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">/</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">/</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_z">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">z</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">z</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">Z</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_n">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">n</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">n</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">N</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_v">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">v</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">v</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">V</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_x">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">x</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">x</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_m">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">m</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">m</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">M</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_c">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">c</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">c</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true">C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_enter">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>180</y>
+      <width>121</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Enter</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">enter</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_backspace">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>60</y>
+      <width>81</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;--</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">backspace</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_rshift">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>240</y>
+      <width>171</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Shift</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">shift</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_lshift">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>91</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Shift</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">shift</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_cabs">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>81</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Caps</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">caps</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_tab">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>71</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Tab</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">tab</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_space">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>300</y>
+      <width>431</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="text">
+     <string notr="true">Space</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">space</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_escape">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true">1¿escape¿¿</string>
+    </property>
+    <property name="text">
+     <string notr="true">Esc</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">escape</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_clear">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>0</y>
+      <width>81</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Clear</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">clear</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_rshift_2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>300</y>
+      <width>171</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">Ok</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">ok</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_right">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>300</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">-&gt;</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">right</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_left">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="statusTip">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;-</string>
+    </property>
+    <property name="btnMode" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="btnNormal" stdset="0">
+     <string notr="true">left</string>
+    </property>
+    <property name="btnShift" stdset="0">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="edValue">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>861</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
