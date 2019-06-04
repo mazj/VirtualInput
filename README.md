@@ -1,10 +1,11 @@
 # VirtualKeyboard (<a href='https://qtcentre.org/threads/49181-virtual-keyboard-in-QT-Application'>qtcentre.org</a>)
-virtual keyboard in QT Application
+virtual keyboard for QT Applications
+
 
 numpad layout:
-<img src=numpad.png />
+* <img src=numpad.png />
 keyboard layout:
-<img src=keyboard.png />
+* <img src=keyboard.png />
 
 Virtual Keyboard for touch-screen devices written in C/C++ Qt, compatible with 5.x
 The keyboard only works with QLineEdit.
